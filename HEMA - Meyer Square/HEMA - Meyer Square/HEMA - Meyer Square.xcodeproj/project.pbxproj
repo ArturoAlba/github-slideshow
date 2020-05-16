@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		305DA4022456AB1600A1B19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305DA4012456AB1600A1B19E /* AppDelegate.swift */; };
+		305DA4042456AB1600A1B19E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305DA4032456AB1600A1B19E /* SceneDelegate.swift */; };
+		305DA4062456AB1600A1B19E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305DA4052456AB1600A1B19E /* ViewController.swift */; };
+		305DA4092456AB1600A1B19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305DA4072456AB1600A1B19E /* Main.storyboard */; };
+		305DA40B2456AB2600A1B19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305DA40A2456AB2600A1B19E /* Assets.xcassets */; };
+		305DA40E2456AB2600A1B19E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305DA40C2456AB2600A1B19E /* LaunchScreen.storyboard */; };
+		3083B84924693E7B00E35997 /* tempoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3083B84824693E7B00E35997 /* tempoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		305DA3FE2456AB1600A1B19E /* HEMA - Meyer Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HEMA - Meyer Square.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		305DA4012456AB1600A1B19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		305DA4032456AB1600A1B19E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		305DA4052456AB1600A1B19E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		305DA4082456AB1600A1B19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		305DA40A2456AB2600A1B19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		305DA40D2456AB2600A1B19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		305DA40F2456AB2600A1B19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3083B84824693E7B00E35997 /* tempoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		305DA3FB2456AB1600A1B19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		305DA3F52456AB1500A1B19E = {
+			isa = PBXGroup;
+			children = (
+				305DA4002456AB1600A1B19E /* HEMA - Meyer Square */,
+				305DA3FF2456AB1600A1B19E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		305DA3FF2456AB1600A1B19E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				305DA3FE2456AB1600A1B19E /* HEMA - Meyer Square.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		305DA4002456AB1600A1B19E /* HEMA - Meyer Square */ = {
+			isa = PBXGroup;
+			children = (
+				305DA4012456AB1600A1B19E /* AppDelegate.swift */,
+				305DA4032456AB1600A1B19E /* SceneDelegate.swift */,
+				305DA4052456AB1600A1B19E /* ViewController.swift */,
+				3083B84824693E7B00E35997 /* tempoViewController.swift */,
+				305DA4072456AB1600A1B19E /* Main.storyboard */,
+				305DA40A2456AB2600A1B19E /* Assets.xcassets */,
+				305DA40C2456AB2600A1B19E /* LaunchScreen.storyboard */,
+				305DA40F2456AB2600A1B19E /* Info.plist */,
+			);
+			path = "HEMA - Meyer Square";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		305DA3FD2456AB1600A1B19E /* HEMA - Meyer Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305DA4122456AB2700A1B19E /* Build configuration list for PBXNativeTarget "HEMA - Meyer Square" */;
+			buildPhases = (
+				305DA3FA2456AB1600A1B19E /* Sources */,
+				305DA3FB2456AB1600A1B19E /* Frameworks */,
+				305DA3FC2456AB1600A1B19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HEMA - Meyer Square";
+			productName = "HEMA - Meyer Square";
+			productReference = 305DA3FE2456AB1600A1B19E /* HEMA - Meyer Square.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		305DA3F62456AB1500A1B19E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ritterschaft HEMA";
+				TargetAttributes = {
+					305DA3FD2456AB1600A1B19E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 305DA3F92456AB1500A1B19E /* Build configuration list for PBXProject "HEMA - Meyer Square" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 305DA3F52456AB1500A1B19E;
+			productRefGroup = 305DA3FF2456AB1600A1B19E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				305DA3FD2456AB1600A1B19E /* HEMA - Meyer Square */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		305DA3FC2456AB1600A1B19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305DA40E2456AB2600A1B19E /* LaunchScreen.storyboard in Resources */,
+				305DA40B2456AB2600A1B19E /* Assets.xcassets in Resources */,
+				305DA4092456AB1600A1B19E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		305DA3FA2456AB1600A1B19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3083B84924693E7B00E35997 /* tempoViewController.swift in Sources */,
+				305DA4062456AB1600A1B19E /* ViewController.swift in Sources */,
+				305DA4022456AB1600A1B19E /* AppDelegate.swift in Sources */,
+				305DA4042456AB1600A1B19E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		305DA4072456AB1600A1B19E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305DA4082456AB1600A1B19E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		305DA40C2456AB2600A1B19E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305DA40D2456AB2600A1B19E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		305DA4102456AB2600A1B19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		305DA4112456AB2700A1B19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		305DA4132456AB2700A1B19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23MKZ2YGN9;
+				INFOPLIST_FILE = "HEMA - Meyer Square/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ritterschaft.HEMA---Meyer-Square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		305DA4142456AB2700A1B19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23MKZ2YGN9;
+				INFOPLIST_FILE = "HEMA - Meyer Square/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ritterschaft.HEMA---Meyer-Square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		305DA3F92456AB1500A1B19E /* Build configuration list for PBXProject "HEMA - Meyer Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305DA4102456AB2600A1B19E /* Debug */,
+				305DA4112456AB2700A1B19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305DA4122456AB2700A1B19E /* Build configuration list for PBXNativeTarget "HEMA - Meyer Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305DA4132456AB2700A1B19E /* Debug */,
+				305DA4142456AB2700A1B19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 305DA3F62456AB1500A1B19E /* Project object */;
+}
